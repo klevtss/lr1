@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ЛР №1</title>
+</head>
+
+<body>
+    <header>
+        <h1>Лабораторна робота №1</h1>
+    </header>
+
+    <h3>Оформлений текст</h3>
+
+    <p>
+        Загальна кількість перестановок з <i>n</i><br>
+        елементів дорівнює <b>добутку всіх</b><br>
+        <b>цілих чисел</b> від <i>1</i> до n:<br>
+        P<sub>n</sub> = <b>1&bull;2&bull;3&bull;...&bull;&#40;n-2&#41;&bull;&#40;n-1&#41;&bull;n</b>.
+    </p>
+
+    <h3>Список дисциплін 3-го курсу</h3>
+    <dl>
+        <dt>IntТ</dt>
+        <dd>Internet-технології</dd>
+
+        <dt>Soft skills</dt>
+        <dd>Soft skills: соціально-психологічні аспекти професійної компетентності</dd>
+
+        <dt>АК</dt>
+        <dd>Архітектура комп'ютерів</dd>
+
+        <dt>ДТП</dt>
+        <dd>Демократія: від теорії до практики </dd>
+
+        <dt>ІССп</dt>
+        <dd>Імідж сучасного спеціаліста</dd>
+
+        <dt>КСх</dt>
+        <dd>Комп'ютерна схемотехніка</dd>
+
+        <dt>МодС</dt>
+        <dd>Моделювання систем</dd>
+
+        <dt>ПУ</dt>
+        <dd>Психологія управління</dd>
+
+        <dt>СПЗ</dt>
+        <dd>Системне програмне забезпечення</dd>
+
+        <dt>СПтК</dt>
+        <dd>Соціальна психологія та конфліктологія</dd>
+
+        <dt>ФВ</dt>
+        <dd>Фізичне виховання</dd>
+
+        <dt>ФПр</dt>
+        <dd>Функціональне програмування</dd>
+    </dl>
+
+    <h3>Періодична таблиця</h3>
+
+    <table border="1px" width="15%">
+        <tr>
+            <th>Елемент</th>
+            <th>Символ</th>
+            <th>Атомний Номер</th>
+            <th>Атомна Маса</th>
+        </tr>
+        <tr>
+            <td>Водень</td>
+            <td>Н</td>
+            <td>1</td>
+            <td>1.008</td>
+        </tr>
+        <tr>
+            <td>Гелій</td>
+            <td>He</td>
+            <td>2</td>
+            <td>4.0026</td>
+        </tr>
+        <tr>
+            <td>Літій</td>
+            <td>Li</td>
+            <td>3</td>
+            <td>6.94</td>
+        </tr>
+    </table>
+
+    <h3>Компоненти ПК</h3>
+
+    <form action="#" method="post">
+        <label for="componentType">Тип Компонента:</label>
+        <select id="componentType" name="componentType" required>
+            <option value="" disabled selected>Виберіть тип компонента</option>
+            <option value="CPU">Процесор (CPU)</option>
+            <option value="GPU">Відеокарта (GPU)</option>
+            <option value="RAM">Оперативна Пам'ять (RAM)</option>
+            <option value="Motherboard">Материнська Плата</option>
+            <option value="PSU">Блок Живлення (PSU)</option>
+            <option value="Case">Корпус</option>
+        </select>
+
+        <label for="brand">Бренд:</label>
+        <input type="text" id="brand" name="brand" placeholder="Введіть бренд" required>
+
+        <label for="model">Модель:</label>
+        <input type="text" id="model" name="model" placeholder="Введіть модель" required>
+
+        <button type="submit">Відправити</button>
+    </form>
+
+    <h3>Карти зображення</h3>
+
+    <img src="image.jpeg" alt="KNURE" usemap="#universityMap" width="466" height="237">
+
+    <map name="map">
+        <area shape="rect" coords="0,0,233,237" alt="NURE" href="https://nure.ua">
+        <area shape="rect" coords="233,0,466,237" alt="Timetable" href="https://cist.nure.ua">
+    </map>
+</body>
+
+</html>
